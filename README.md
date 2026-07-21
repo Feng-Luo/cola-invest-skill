@@ -1,12 +1,15 @@
 # cola-invest-skill使用说明
 
-### 安装方式：
+## 安装方式：
 
-```bash
+```
 npx skills add https://github.com/Feng-Luo/cola-invest-skill --skill cola-invest-skill
 ```
-
-### 使用方法：
+## 更新方式：
+```
+npx skills update -g cola-invest-skill
+```
+## 使用说明：
 
 本skill不关注股价的短期波动，只关注上市企业的业务模式，**最终回答一个问题：这家公司是不是一个复利机器**。
 
@@ -22,7 +25,7 @@ npx skills add https://github.com/Feng-Luo/cola-invest-skill --skill cola-invest
 
 
 
-# 来源与许可 / Attribution & License
+## 来源与许可 / Attribution & License
 
 本项目的下载模块基于 [dayu-agent](https://github.com/noho/dayu-agent)（Apache License 2.0，Copyright 2026 Leo Liu）修改而来，属于其**衍生作品（Derivative Work）**。
 

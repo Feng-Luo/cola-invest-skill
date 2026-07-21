@@ -41,14 +41,14 @@ from pathlib import Path
 from typing import Final, Optional, TypeAlias, cast
 
 import httpx
-from download_financial_report.fins.pipelines.cn_download_models import (
+from SKILL.bin.download_financial_report.fins.pipelines.cn_download_models import (
     CnCompanyProfile,
     CnFiscalPeriod,
     CnReportCandidate,
     CnReportQuery,
     DownloadedReportAsset,
 )
-from download_financial_report.log import Log
+from SKILL.bin.download_financial_report.log import Log
 
 _MODULE: Final[str] = "FINS.CNINFO_DOWNLOADER"
 

@@ -6,7 +6,9 @@
 
 本skill使用的数据接口支持SEC、披露易、巨潮，即可下载A股、港股、美股的财报，默认下载最近三年年报+最新一期季报/半年报。
 
-本项目的开发者完全不懂代码，纯Vibe Coding，CodeBuddy和Claude Code混用，主要用了DeepSeek V4、Hy3、GLM 5.2大模型
+本项目的开发者完全不懂代码，纯Vibe Coding，使用了CodeBuddy和Claude Code等Agent，主要用了DeepSeek V4、Hy3、GLM 5.2大模型。
+
+本项目安装后得出的分析报告仅供参考，不构成投资建议，不保熟。
 
 
 

@@ -1,4 +1,4 @@
-<center><img src="cola-invest-skill v1/SKILL/mt.jpeg"/><center>
+<center><img src="https://github.com/Feng-Luo/cola-invest-skill/blob/main/SKILL/mt.jpeg"/><center>
 
 # <center>cola-invest-skill使用说明<center>
 

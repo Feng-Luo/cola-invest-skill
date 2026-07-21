@@ -1,5 +1,7 @@
 # cola-invest-skill使用说明
 
+安装方式：npx skills add https://github.com/Feng-Luo/cola-invest-skill --skill cola-invest-skill
+
 本skill不关注股价的短期波动，只关注上市企业的业务模式，**最终回答一个问题：这家公司是不是一个复利机器**。
 
 仅当用户明确说使用 cola-invest-skill 进行分析某个具体个股的时候，才调用本skill。
@@ -12,7 +14,7 @@
 
 
 
-## 来源与许可 / Attribution & License
+# 来源与许可 / Attribution & License
 
 本项目基于 [dayu-agent](https://github.com/noho/dayu-agent)（Apache License 2.0，Copyright 2026 Leo Liu）修改而来，属于其**衍生作品（Derivative Work）**。
 

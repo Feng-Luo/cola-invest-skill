@@ -43,24 +43,24 @@ _BIN_DIR = Path(__file__).resolve().parent
 if str(_BIN_DIR) not in sys.path:
     sys.path.insert(0, str(_BIN_DIR))
 
-from SKILL.bin.download_financial_report.contracts.env_keys import SEC_USER_AGENT_ENV
-from SKILL.bin.download_financial_report.fins.domain.document_models import FileObjectMeta
-from SKILL.bin.download_financial_report.fins.downloaders.cninfo_downloader import (
+from download_financial_report.contracts.env_keys import SEC_USER_AGENT_ENV
+from download_financial_report.fins.domain.document_models import FileObjectMeta
+from download_financial_report.fins.downloaders.cninfo_downloader import (
     CninfoDiscoveryClient,
 )
-from SKILL.bin.download_financial_report.fins.downloaders.hkexnews_downloader import (
+from download_financial_report.fins.downloaders.hkexnews_downloader import (
     HkexnewsDiscoveryClient,
 )
-from SKILL.bin.download_financial_report.fins.downloaders.sec_downloader import SecDownloader
-from SKILL.bin.download_financial_report.fins.pipelines.cn_download_models import (
+from download_financial_report.fins.downloaders.sec_downloader import SecDownloader
+from download_financial_report.fins.pipelines.cn_download_models import (
     CnFiscalPeriod,
     CnReportQuery,
 )
-from SKILL.bin.download_financial_report.fins.ticker_normalization import (
+from download_financial_report.fins.ticker_normalization import (
     NormalizedTicker,
     normalize_ticker,
 )
-from SKILL.bin.download_financial_report.log import Log
+from download_financial_report.log import Log
 
 _MODULE = "COLA_FETCH"
 

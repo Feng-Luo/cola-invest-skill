@@ -44,16 +44,16 @@ from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
 
 import httpx
-from SKILL.bin.download_financial_report.workspace_paths import build_sec_throttle_dir
-from SKILL.bin.download_financial_report.contracts.env_keys import SEC_USER_AGENT_ENV
+from download_financial_report.workspace_paths import build_sec_throttle_dir
+from download_financial_report.contracts.env_keys import SEC_USER_AGENT_ENV
 
 if sys.platform != "win32":
     import fcntl
 
-from SKILL.bin.download_financial_report.log import Log
-from SKILL.bin.download_financial_report.fins._converters import normalize_optional_text, optional_int
-from SKILL.bin.download_financial_report.fins.domain.document_models import FileObjectMeta
-from SKILL.bin.download_financial_report.fins.ticker_normalization import try_normalize_ticker
+from download_financial_report.log import Log
+from download_financial_report.fins._converters import normalize_optional_text, optional_int
+from download_financial_report.fins.domain.document_models import FileObjectMeta
+from download_financial_report.fins.ticker_normalization import try_normalize_ticker
 
 SEC_TICKER_MAP_URL = "https://www.sec.gov/files/company_tickers.json"
 SEC_SUBMISSIONS_URL = "https://data.sec.gov/submissions/CIK{cik10}.json"

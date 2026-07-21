@@ -28,7 +28,7 @@ from typing import Final, Optional, TypeAlias, cast
 
 import httpx
 
-from SKILL.bin.download_financial_report.fins.pipelines.cn_download_models import (
+from download_financial_report.fins.pipelines.cn_download_models import (
     CnCompanyProfile,
     CnFiscalPeriod,
     CnLanguage,
@@ -36,7 +36,7 @@ from SKILL.bin.download_financial_report.fins.pipelines.cn_download_models impor
     CnReportQuery,
     DownloadedReportAsset,
 )
-from SKILL.bin.download_financial_report.log import Log
+from download_financial_report.log import Log
 
 _MODULE: Final[str] = "FINS.HKEXNEWS_DOWNLOADER"
 

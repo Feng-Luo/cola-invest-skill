@@ -1,4 +1,6 @@
-# cola-invest-skill使用说明
+<center><img src="cola-invest-skill v1/SKILL/mt.jpeg"/><center>
+
+# <center>cola-invest-skill使用说明<center>
 
 ## 安装方式：
 

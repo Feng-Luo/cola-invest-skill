@@ -8,7 +8,7 @@
 
 本项目的开发者完全不懂代码，纯Vibe Coding，CodeBuddy和Claude Code混用，主要用了DeepSeek V4、Hy3、GLM 5.2大模型
 
-本项目。
+
 
 ## 来源与许可 / Attribution & License
 

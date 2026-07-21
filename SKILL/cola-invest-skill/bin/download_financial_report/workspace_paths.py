@@ -1,3 +1,10 @@
+# ===========================================================================
+# MODIFIED FILE — Derivative Work of dayu-agent (Apache License 2.0)
+# Source: https://github.com/noho/dayu-agent  (Copyright 2026 Leo Liu)
+# This file was modified for the cola-invest-skill project.
+# Distributed under the Apache License 2.0. See repo-root LICENSE / NOTICE.
+# ===========================================================================
+
 """cola_fetch 工作区状态路径。
 
 仅保留 SEC 限流共享状态目录构造逻辑，由 sec_downloader 使用。

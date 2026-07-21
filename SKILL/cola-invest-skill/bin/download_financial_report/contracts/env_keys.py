@@ -1,3 +1,10 @@
+# ===========================================================================
+# MODIFIED FILE — Derivative Work of dayu-agent (Apache License 2.0)
+# Source: https://github.com/noho/dayu-agent  (Copyright 2026 Leo Liu)
+# This file was modified for the cola-invest-skill project.
+# Distributed under the Apache License 2.0. See repo-root LICENSE / NOTICE.
+# ===========================================================================
+
 """跨层共享的环境变量名常量。
 
 仅保留 SEC 下载器所需的 SEC_USER_AGENT_ENV。原 dayu.contracts.env_keys 还

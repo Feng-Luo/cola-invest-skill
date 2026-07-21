@@ -1,3 +1,10 @@
+# ===========================================================================
+# MODIFIED FILE — Derivative Work of dayu-agent (Apache License 2.0)
+# Source: https://github.com/noho/dayu-agent  (Copyright 2026 Leo Liu)
+# This file was modified for the cola-invest-skill project.
+# Distributed under the Apache License 2.0. See repo-root LICENSE / NOTICE.
+# ===========================================================================
+
 """CN/HK 下载链路 typed model 与版本常量。
 
 本模块仅定义 frozen dataclass、字面量类型与版本常量，**不做** I/O、**不依赖**

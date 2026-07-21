@@ -1,3 +1,10 @@
+# ===========================================================================
+# MODIFIED FILE — Derivative Work of dayu-agent (Apache License 2.0)
+# Source: https://github.com/noho/dayu-agent  (Copyright 2026 Leo Liu)
+# This file was modified for the cola-invest-skill project.
+# Distributed under the Apache License 2.0. See repo-root LICENSE / NOTICE.
+# ===========================================================================
+
 """SEC EDGAR 下载器（低层网络与文件下载）。
 
 职责范围：

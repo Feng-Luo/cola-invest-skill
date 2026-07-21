@@ -1,3 +1,10 @@
+# ===========================================================================
+# MODIFIED FILE — Derivative Work of dayu-agent (Apache License 2.0)
+# Source: https://github.com/noho/dayu-agent  (Copyright 2026 Leo Liu)
+# This file was modified for the cola-invest-skill project.
+# Distributed under the Apache License 2.0. See repo-root LICENSE / NOTICE.
+# ===========================================================================
+
 """fins 通用标量转换工具。
 
 提供跨 fins 子模块共享的可选整数解析与可选文本标准化函数，

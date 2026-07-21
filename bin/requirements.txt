@@ -1,0 +1,7 @@
+# cola_fetch 依赖清单
+# 仅一个第三方包：httpx（SEC / HK / CN 三个下载器共用）
+# 其余依赖（asyncio / json / re / pathlib / dataclasses / typing / logging 等）均为 Python 标准库。
+#
+# 安装：
+#     pip install -r requirements.txt
+httpx>=0.27,<1.0

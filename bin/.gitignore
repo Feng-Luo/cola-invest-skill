@@ -1,0 +1,10 @@
+# 忽略 Python 虚拟环境（运行期由 agent 自动创建，不入仓）
+.venv/
+
+# 忽略 cola_fetch 运行期状态目录（SEC 限流状态等）
+.cola_fetch/
+
+# 忽略 Python 字节码缓存
+__pycache__/
+*.pyc
+*.pyo

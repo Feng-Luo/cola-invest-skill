@@ -1,6 +1,10 @@
 # cola-invest-skill使用说明
 
-安装方式：npx skills add https://github.com/Feng-Luo/cola-invest-skill --skill cola-invest-skill
+安装方式：
+
+```bash
+npx skills add https://github.com/Feng-Luo/cola-invest-skill --skill cola-invest-skill
+```
 
 本skill不关注股价的短期波动，只关注上市企业的业务模式，**最终回答一个问题：这家公司是不是一个复利机器**。
 
